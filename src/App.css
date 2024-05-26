@@ -1,0 +1,51 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+  color: #ffff33;
+}
+.input-wrapper input {
+  padding: 5px;
+  width: 350px;
+  margin-right: 5px;
+}
+button {
+  padding: 7px;
+  font-weight: 550;
+  color: #ffff33;
+  background: #000;
+  border: 2px solid #ffff33;
+}
+.task-wrapper {
+  margin-top: 20px;
+}
+li {
+  margin-top: 7px;
+  padding: 15px;
+  width: 400px;
+  border-radius: 5px;
+  list-style: none;
+  background-color: #fff;
+  color: #000;
+}
+span {
+  font-size: 30px;
+  font-weight: 600;
+}
+input {
+  height: 20px;
+  width: 20px;
+}
+input:checked + span {
+  opacity: 0.5;
+  text-decoration: line-through;
+  text-decoration-color: #ff0000;
+}
+.clear-Btn {
+  margin-left: 190px;
+  margin-top: 10px;
+  font-weight: 550;
+}
